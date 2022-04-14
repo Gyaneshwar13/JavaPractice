@@ -1,19 +1,10 @@
-public class AnnonymousArray {
+package com.learning;
+
+public class MainTest {
+
     public static void main(String[] args) {
-
-        AnnonymousArray.temp(new int[]{10, 20, 30});
+        System.out.println("Test");
     }
-
-        static void  temp ( int[] no) {
-
-            int total = 0;
-            for ( int i:no)
-            {
-                total = total + i;
-            }
-            System.out.print(total);
-
-        }
-    }
+}
 
 
